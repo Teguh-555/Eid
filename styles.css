@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('Eid_Background.jpg'); /* Change this to your background image filename */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    max-width: 600px;
+    text-align: center;
+}
+
+.eid-message {
+    font-size: 3em;
+    color: #ffd700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+.eid-text {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.celebrate-btn {
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 204, 0, 0.5);
+}
+
+.celebrate-btn:hover {
+    background: linear-gradient(45deg, #ff6600, #ffcc00);
+    transform: scale(1.1);
+}
